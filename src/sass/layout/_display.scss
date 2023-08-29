@@ -1,0 +1,14 @@
+.display {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 48px;
+    background: black;
+    border: 16px solid #0f0f0f;
+    -webkit-box-shadow: 0 1px 60px 10px #282e28, inset 0 0 20px 20px rgba(0, 0, 0, .97);
+    box-shadow: 0 1px 60px 10px #282e28, inset 0 0 20px 20px rgba(0, 0, 0, .97);
+    box-sizing: border-box;
+}
