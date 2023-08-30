@@ -1,10 +1,10 @@
-@import './base/reset';
-@import './base/body';
-@import './base/page';
-@import './base/main';
+// base
+@import './base/index.scss';
+// utils
 @import './utlis/fonts/fonts.scss';
-
-@import './layout/wrapper';
-
+// layout
+@import './layout/index.scss';
+// pages
 @import './pages/Home';
-@import './layout/display'
+// component
+@import './component/index.scss'

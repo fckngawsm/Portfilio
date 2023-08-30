@@ -1,0 +1,19 @@
+.home {
+    padding: 15px;
+
+    &__title {
+        margin: 0;
+        margin-bottom: 20px;
+
+        &-about {
+            margin: 0;
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+    }
+
+    &__subtitle {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}

@@ -4,6 +4,7 @@ import Header from "./Header";
 import Container from "./Container";
 import Home from "./Home";
 import Display from "./Display";
+import Navigation from "./Navigation";
 function App() {
   return (
     <div className="page">
@@ -11,6 +12,7 @@ function App() {
         <Container>
           <Display>
             <Home />
+            <Navigation />
           </Display>
         </Container>
       </main>

@@ -1,0 +1,12 @@
+.navigation {
+    width: 675px;
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    bottom: 150px;
+    color: white;
+
+    &__link {
+        list-style-type: none;
+    }
+}
